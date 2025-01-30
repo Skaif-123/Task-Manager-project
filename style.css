@@ -82,6 +82,40 @@ button:hover{
     background: #0056b3;
 }
 
+/*styling new content of list */
+#taskList li{
+background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    color: green;
+    font-family: Georgia;
+    /*width: 100%;*/
+    display: flex;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.delete-btn{
+    background-color: red;
+    border: none;
+    padding: 10px 23px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.delete-btn:hover{
+    transform: translateY(-5px);
+    background-color: darkred;
+
+}
+
+
 footer{
     background: #007bff;
     padding: 1rem;
